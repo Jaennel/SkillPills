@@ -1,0 +1,94 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+.navbar img {
+    height: 30px;
+    border-color: none;
+    margin-right: 2px;
+}
+
+.brand {
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+label {
+    color: #333;
+}
+
+.collapse button {
+    border-color: white;
+    color: white;
+}
+
+.collapse button:hover {
+    border-color: white;
+    background-color: grey;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.container button {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #5a5a5a;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.container {
+ margin-top: 25px;
+ width: 100%;
+}
+
+.container p {
+    margin-top:15px;
+}
+
+input {
+    border-color: white;
+    color: white;
+}
+
+
+@media (min-width: 40em) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 0rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .collapse {
+        display: none !important;
+    }
+}
