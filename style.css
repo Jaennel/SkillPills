@@ -156,7 +156,7 @@ body {
 .card-footer button{
     position: absolute;
     right:10px;
-    bottom: 5px;
+    bottom: 0.95%;
 }
 
 footer a{
@@ -210,8 +210,14 @@ footer a:hover{
     }
 }
 
+@media (max-width: 36em){
+        .card-footer button{
+        bottom: -0.5%;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1000px) {
    .collapse {
        display: none !important;
-   }
+    }
 }
