@@ -55,17 +55,33 @@ footer a:hover {
 }
 
 .container {
- margin-top: 25px;
- width: 100%;
+    margin-top: 25px;
+    width: 100%;
 }
 
 .container p {
-    margin-top:15px;
+    margin-top: 15px;
 }
 
 input {
     border-color: white;
     color: white;
+}
+
+.search .btn-outline-success:hover,
+.search .btn-outline-success:active,
+.search .btn-outline-success:focus,
+.search .btn-success:hover,
+.search .btn-success:active,
+.search .btn-success:focus {
+    color: #ffffff !important;
+    background-color: grey !important;
+    border-color: white !important;
+    box-shadow: none !important;
+}
+
+address a:hover {
+    text-decoration: none;
 }
 
 
