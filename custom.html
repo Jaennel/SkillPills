@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+    <title>SkillPills - Custom Order</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="print.css"rel="stylesheet" type="text/css" media="print">  
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="index.html">
+            <img src="./media/logo.png">
+            SkillPills
+            </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Kräfte</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="custom.html">Custom Order <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Kontakt</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline mt-2 mt-md-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Suchen" aria-label="Search">
+                        <div class="search"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Suchen</button></div>
+                    </form>
+                </div>
+            </nav>
+    </header>
+
+    <main role="main">
+        <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <br />
+                        <h1>Bestellung einer Custom-Power</h1>
+
+                        <p class="lead">Nichts für Sie dabei? Kein Problem: hier können Sie ganz bequem eine auf sie maßgeschneiderte Superkraft kreieren und bestellen. Der Preis variiert je nach Grad der Aufwändigkeit.</p>
+
+
+                        <form id="contact-form" method="post" action="contact.php" role="form">
+
+                            <div class="messages"></div>
+
+                            <div class="controls">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_name">Vorname *</label>
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Bitte geben Sie Ihren Vorname an *" required="Pflichtangabe" data-error="Bitte geben Sie Ihren Vornamen an.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_lastname">Nachname *</label>
+                                            <input id="form_lastname" type="text" name="Nachname" class="form-control" placeholder="Bitte geben Sie Ihren Nachnamen an *" required="Pflichtfeld" data-error="Bitte geben Sie Ihren Nachnamen an.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_email">Email *</label>
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Bitte geben Sie Ihre Email-Adresse an *" required="Pflichtfeld" data-error="Bitte geben Sie Ihre Email-Adresse an">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_phone">Telefonnummer</label>
+                                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Bitte geben Sie Ihre Telefonnummer an">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message">Detaillierte Beschreibung der Superkraft *</label>
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Bitte geben Sie eine möglichst genaue Beschreibung der von Ihnen gewünschten Superkraft an *" rows="4" required="required" data-error="Bitte geben Sie eine möglichst genaue Beschreibung der von Ihnen gewünschten Superkraft an"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Bestellen</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="text-muted"><strong>*</strong> Pflichtfelder</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- /.8 -->
+
+                </div>
+                <!-- /.row-->
+
+            </div>
+            <!-- /.container-->
+            <footer class="container">
+                <p class="float-right"><a href="#">Zurück nach Oben &#8679;</a></p>
+                <p><b>&copy; 2018 SkillPills &middot; </b><a href="impressum.html">Impressum</a> &middot; <a href="ueber.html">Über</a></p>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')
+
+    </script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="validator.js"></script>
+    <script src="contact.js"></script>
+</body>

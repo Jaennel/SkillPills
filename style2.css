@@ -1,0 +1,150 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+.navbar img {
+    height: 30px;
+    border-color: none;
+    margin-right: 2px;
+}
+
+.brand {
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+label {
+    color: #333;
+}
+
+.collapse button {
+    border-color: white;
+    color: white;
+}
+
+.collapse button:hover {
+    border-color: white;
+    background-color: grey;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.container button {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #5a5a5a;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.container {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.container p {
+    margin-top: 15px;
+}
+
+input {
+    border-color: white;
+    color: white;
+}
+
+.search .btn-outline-success:hover,
+.search .btn-outline-success:active,
+.search .btn-outline-success:focus,
+.search .btn-success:hover,
+.search .btn-success:active,
+.search .btn-success:focus {
+    color: #ffffff !important;
+    background-color: grey !important;
+    border-color: white !important;
+    box-shadow: none !important;
+}
+
+.power {
+    height: 300px;
+}
+
+.max p{
+    margin-left: 86px;
+}
+
+
+address a:hover {
+    text-decoration: none;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color:white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #E27065;
+    color: white;
+}
+
+
+@media (min-width: 40em) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 0rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .collapse {
+        display: none !important;
+    }
+}
