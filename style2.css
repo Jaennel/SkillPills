@@ -93,6 +93,10 @@ address a:hover {
     text-decoration: none;
 }
 
+.row a:hover {
+    text-decoration: none;
+}
+
 
 .fa {
     padding: 20px;
